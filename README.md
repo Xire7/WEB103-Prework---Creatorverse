@@ -36,7 +36,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='https://imgur.com/a/NYb8mfj' title='Video Walkthrough' width='' alt='Video Walkthrough'>https://imgur.com/a/NYb8mfj'</img>
+👉🏿<img src='https://imgur.com/a/NYb8mfj' title='Video Walkthrough' width='' alt='Video Walkthrough -->'> https://imgur.com/a/NYb8mfj</img>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif and uploaded online with Imgur.
