@@ -21,7 +21,7 @@ const CreatorList = ({ creatorList }) => {
           return (
             <li key={element.id}>
               <Link to={`/${element.id}`}>
-                <CreatorCard name={element.name} imageURL={element.imageURL} />
+                <CreatorCard name={element.name} imageURL={element.imageURL} description={element.description} />
               </Link>
             </li>
           );

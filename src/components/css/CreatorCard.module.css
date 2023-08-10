@@ -1,7 +1,7 @@
 .card {
     display: flex;
-    width: 13rem;
-    height: 11rem;
+    width: 18rem;
+    height: 14rem;
     flex-direction: column;
     background-color: rgba(238, 230, 230, 0.452);
     border-radius: 2rem;
@@ -15,7 +15,7 @@
     border-radius: 8px;
     padding: 5px;
     max-width: 100%;
-    height: 75%;
+    height: 50%;
     object-fit: fill;
 }
 
@@ -26,7 +26,11 @@
 p {
     font-family: 'Black Han Sans', sans-serif;
     color: rgb(59, 58, 58);
-    font-size: 1.1rem;
+    font-size: 0.5rem;
     padding: 0.5px;
     margin: 3px;
+}
+
+.desc {
+    font-family: 'Fira Sans', sans-serif;
 }
