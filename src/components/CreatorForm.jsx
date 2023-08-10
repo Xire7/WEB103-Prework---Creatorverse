@@ -4,6 +4,9 @@ import classes from "./css/CreatorForm.module.css";
 
 const CreatorForm = ({ method, data, ids }) => {
   const hashID = () => {
+    if (!ids) {
+      return null;
+    }
     let id = Number.parseInt(Math.random() * 100, 10); // choose 100 because hash table should be 100 or less..
     while (ids.includes(id) === true) {
       id = id + 1;
@@ -11,8 +14,8 @@ const CreatorForm = ({ method, data, ids }) => {
     console.log("GENERATED ID:", id);
     return id;
   };
-
   let validID = hashID();
+
   const navigate = useNavigate();
   const cancelHandler = () => {
     navigate("..");
@@ -39,7 +42,6 @@ const CreatorForm = ({ method, data, ids }) => {
           name="url"
           required
           defaultValue={data ? data.url : ""}
-          onChange={hashID}
         />
       </p>
       <p>
